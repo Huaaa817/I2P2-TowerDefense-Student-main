@@ -100,6 +100,10 @@ add_executable(2024_I2P2_TowerDefense_with_answer
         Turret/Turret4.cpp
         Scene/ScoreBoardScene.cpp
         Scene/ScoreBoardScene.h
+        Scene/SeedStoreScene.cpp
+        Scene/SeedStoreScene.h
+        Scene/PotionStoreScene.cpp
+        Scene/PotionStoreScene.h
         #UI/Component/TextInput.cpp
         #UI/Component/TextInput.hpp
 )
