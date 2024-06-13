@@ -15,6 +15,7 @@ namespace Engine {
 class SeedStoreScene final : public Engine::IScene {
 protected:
     int money1, money2;
+    int table[3][4];
 public:
     void Initialize() override;
     void NextOnClick(int stage);
@@ -22,6 +23,7 @@ public:
     //void OnMouseDown(int button, int mx, int my) override;
     //void OnMouseUp(int button, int mx, int my) override;
     void ReadMoney();//get money
+    int GetSeedNumber(int player, int potion) const;
 
 };
 

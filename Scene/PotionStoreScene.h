@@ -17,6 +17,7 @@ namespace Engine {
 class PotionStoreScene final : public Engine::IScene {
 protected:
     int money1, money2;
+    int table[3][5];
 public:
     void Initialize() override;
     void NextOnClick(int stage);
@@ -24,6 +25,9 @@ public:
     //void OnMouseDown(int button, int mx, int my) override;
     //void OnMouseUp(int button, int mx, int my) override;
     void ReadMoney();//get money
+    void CostPotion(int player, int potion) const;
+    int GetPotionNumber(int player, int potion) const;
+
 
 };
 #endif //POTIONSTORESCENE_H
