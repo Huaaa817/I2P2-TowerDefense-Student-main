@@ -55,5 +55,5 @@ void StageSelectScene::PlayOnClick(int stage) {
     Engine::GameEngine::GetInstance().ChangeScene("play");
 }
 void StageSelectScene::ScoreboardOnClick() {
-    Engine::GameEngine::GetInstance().ChangeScene("seed-store");
+    Engine::GameEngine::GetInstance().ChangeScene("potion-store");
 }
