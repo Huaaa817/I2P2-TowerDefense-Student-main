@@ -104,6 +104,8 @@ add_executable(2024_I2P2_TowerDefense_with_answer
         Scene/SeedStoreScene.h
         Scene/PotionStoreScene.cpp
         Scene/PotionStoreScene.h
+        UI/Component/Window.cpp
+        UI/Component/Window.h
         #UI/Component/TextInput.cpp
         #UI/Component/TextInput.hpp
 )
